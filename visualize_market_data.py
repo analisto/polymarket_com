@@ -62,10 +62,10 @@ def extract_insights(events_df, markets_df):
     insights['total_liquidity'] = events_df['liquidity'].sum()
 
     # Active vs Closed
-    insights['active_events'] = (events_df['active'] == 'True').sum()
-    insights['closed_events'] = (events_df['closed'] == 'True').sum()
-    insights['active_markets'] = (markets_df['active'] == 'True').sum()
-    insights['closed_markets'] = (markets_df['closed'] == 'True').sum()
+    insights['active_events'] = events_df['active'].sum()
+    insights['closed_events'] = events_df['closed'].sum()
+    insights['active_markets'] = markets_df['active'].sum()
+    insights['closed_markets'] = markets_df['closed'].sum()
 
     # Top event
     top_event = events_df.nlargest(1, 'volume24hr').iloc[0]

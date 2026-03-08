@@ -13,10 +13,10 @@
 - **Average Event Volume**: $193.5K
 
 ## Market Status
-- **Active Events**: 0 (0.0%)
-- **Closed Events**: 0 (0.0%)
-- **Active Markets**: 0 (0.0%)
-- **Closed Markets**: 0 (0.0%)
+- **Active Events**: 43,840 (100.0%)
+- **Closed Events**: 39,386 (89.8%)
+- **Active Markets**: 91,740 (91.0%)
+- **Closed Markets**: 76,331 (75.7%)
 
 ## Top Performing Event
 - **Title**: Fed decision in December?
@@ -30,7 +30,7 @@
 5. **Crypto Prices**: 24,547 events
 
 ## Recent Activity
-- **Events Created (Last 30 Days)**: 23,923
+- **Events Created (Last 30 Days)**: 0
 - **Event Date Range**: 2022-07-27 to 2025-12-03
 
 ## Key Findings
